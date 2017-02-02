@@ -1,0 +1,89 @@
+#pane
+{
+    -fx-background-image: url("../assets/Beautiful-Purple-Ubuntu-Wallpaper-Background.png");
+}
+#headerText
+{
+    -fx-font:  bolder 16px "Fira Code";
+}
+#header
+{
+    -fx-background-color:#def;
+    -fx-padding:0px 0px 0px 70px;
+
+}
+#login_header
+{
+    -fx-font-size:25px;
+}
+#gridpane
+{
+    -fx-margin:50px;
+}
+#ac_header
+{
+    -fx-font:  bolder 20px "Fira Code";
+    -fx-padding :10px  100px 10px 200px;
+    -fx-effect: innershadow(gaussian, gray, 10, 0.6, 10, 10);
+}
+#ac_gridpane
+{
+    -fx-background-color:azure;
+    -fx-margin:0px;
+}
+#ac_pane,gridPaneRegRetake
+{
+     -fx-background-color:#de5;
+     -fx-padding:10px 10px 10px 80px;
+}
+#lblTitle
+{
+    -fx-font-size:20px;
+    -fx-padding :10px  10px 10px 10px;
+}
+#center
+{
+    -fx-background-image: url("../assets/newwinler.jpg");
+}
+#centerRegRetake
+{
+    -fx-background-color: #efe;
+}
+#lerror
+{
+    -fx-font: italic bolder 14px "Fira Code";
+}
+#left
+{
+-fx-background-image: url("../assets/newwinler.jpg");
+}
+#whiteLabels
+{
+-fx-text-fill: #fff;
+-fx-font-weight:bold;
+-fx-font-family:Fira Code;
+
+
+}
+
+#leftButtons {
+    -fx-background-color:skyblue;
+    -fx-background-radius:10px;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #e21fbc;
+    -fx-font:  bolder 14px "Fira Code";
+}
+
+#button {
+-fx-text-fill: white;
+-fx-background-radius:10px;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#button:hover {
+-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
